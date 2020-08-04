@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Posicionamento estático e relativo(static, 
+	relative, absolute e fixed)</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		body {
+			background: #007fc7;
+		}
+		#container{
+			background: #FFF;
+			width: 800px;
+			margin: 10px auto;
+			padding: 10px;
+		}
+		h1{
+
+			/* position: static; */
+		}
+		p{
+			width: 300px;
+		}
+		.relative{
+			border: 1px solid red;
+			position: relative;
+			/* top: -20px;	 Negativo para subir*/
+			/*left: 80px; */
+			bottom: -20px; 
+			/* position: relative; */
+			/* Usado para movimentar o parágrafo
+			top, right, botto e left*/
+		}
+	</style>
+</head>
+<body>
+	<div id="container">
+		<h1>Posicionamento</h1>
+		<p>
+			P1 lorem ipsum dolorem sit amet dolom
+			lorem ipsum dolorem sit amet dolom
+			lorem ipsum dolorem sit amet dolom
+			lorem ipsum dolorem sit amet dolom
+		</p>
+		<p class="relative">
+			P2 lorem ipsum dolorem sit amet dolom
+			lorem ipsum dolorem sit amet dolom
+			lorem ipsum dolorem sit amet dolom
+			lorem ipsum dolorem sit amet dolom
+		</p>
+		<p>
+			P3  lorem ipsum dolorem sit amet dolom
+			lorem ipsum dolorem sit amet dolom
+			lorem ipsum dolorem sit amet dolom
+			lorem ipsum dolorem sit amet dolom
+		</p>
+
+	</div>
+</body>
+</html>

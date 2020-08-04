@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Posicionamento (absolute e fixed)</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		body {
+			background: #007fc7;
+		}
+		#container{
+			background: #FFF;
+			margin: 10px auto;
+			padding: 10px;
+			position: relative;
+			width: 800px;
+		}
+		h1{
+
+			/* position: static; é a posição padrão*/
+		}
+		p{
+			width: 300px;
+		}
+		.relative{
+			border: 1px solid red;
+			/* bottom: -20px; */
+			position: relative;
+			/* top: -20px;	 Negativo para subir*/
+			/*left: 80px; */
+
+			/* position: relative; */
+			/* Usado para movimentar o parágrafo
+			top, right, botto e left*/
+		}		
+		.fixed{
+			background: #f2f2f2;
+			border: 2px solid red;
+			margin: 0px; 
+			position: fixed; /* Fixo em relação a janela*/
+			bottom: 0px;
+			right: 0px;
+		}
+		.absolute{
+			background: #f2f2f2;
+			border: 2px solid red;
+			position: absolute;
+			top: 80px;
+			right: 80px;
+		}
+	</style>
+</head>
+<body>
+	<div id="container">
+		<h1>Posicionamento</h1>
+		<p>
+			P1 lorem ipsum dolorem sit amet dolom
+			lorem ipsum dolorem sit amet dolom
+			lorem ipsum dolorem sit amet dolom
+			lorem ipsum dolorem sit amet dolom
+		</p>
+		<p class="fixed">
+			P2 lorem ipsum dolorem sit amet dolom
+			lorem ipsum dolorem sit amet dolom
+			lorem ipsum dolorem sit amet dolom
+			lorem ipsum dolorem sit amet dolom
+		</p>
+		<p>
+			P3  lorem ipsum dolorem sit amet dolom
+			lorem ipsum dolorem sit amet dolom
+			lorem ipsum dolorem sit amet dolom
+			lorem ipsum dolorem sit amet dolom
+		</p>
+		<p>
+			P3  lorem ipsum dolorem sit amet dolom
+			lorem ipsum dolorem sit amet dolom
+			lorem ipsum dolorem sit amet dolom
+			lorem ipsum dolorem sit amet dolom
+		</p>		
+		<p>
+			P3  lorem ipsum dolorem sit amet dolom
+			lorem ipsum dolorem sit amet dolom
+			lorem ipsum dolorem sit amet dolom
+			lorem ipsum dolorem sit amet dolom
+		</p>
+
+		<p>
+			P3  lorem ipsum dolorem sit amet dolom
+			lorem ipsum dolorem sit amet dolom
+			lorem ipsum dolorem sit amet dolom
+			lorem ipsum dolorem sit amet dolom
+		</p>
+		<p>
+			P3  lorem ipsum dolorem sit amet dolom
+			lorem ipsum dolorem sit amet dolom
+			lorem ipsum dolorem sit amet dolom
+			lorem ipsum dolorem sit amet dolom
+		</p>		
+		<p>
+			P3  lorem ipsum dolorem sit amet dolom
+			lorem ipsum dolorem sit amet dolom
+			lorem ipsum dolorem sit amet dolom
+			lorem ipsum dolorem sit amet dolom
+		</p>
+	</div>
+</body>
+</html>
