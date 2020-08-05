@@ -1,0 +1,37 @@
+/**********************
+HERANÇA E ESPECIFICIDADE*/
+/*
+body{
+	color: red;
+	/* border: 1px solid blue; */
+	/* background: grey; /*
+	/* font-size: 5px; */
+/*SELETORES IGUAIS O ùLTIMO É SEMPRE APLICADO*/
+/* #pagina p{
+	color: blue !important; /* Pode ser utilizado 
+	mas não é recomendado com frequência
+	*/
+/*}
+
+#pagina p{
+	color: red ;
+} */
+
+/* Se um seletor for mais específico
+que outro a regra mais especifica será
+apllicada (terá precedência sobre
+regras mais gerais)*/
+* {
+	color: red;
+}
+h2 {		/* 3 */
+	color: blue;
+}
+/* Sem espaçamento, é colado*/
+h2.verde{	/* 2 */
+	color: green;
+}
+/*ID é primeiro que class*/
+h2#amarelo{ /* 1 */
+	color: yellow;
+}

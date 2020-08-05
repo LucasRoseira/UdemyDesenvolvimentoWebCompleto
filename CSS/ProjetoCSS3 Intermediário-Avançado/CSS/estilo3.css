@@ -1,0 +1,37 @@
+/* **************************
+BARRA DE NAVEGAÇÂO VERTICAL*/
+/*
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+li{
+	padding: 5px 20px;
+	/* pra voltar é só ../ */
+	/* background: url(../Imagens/seta.png) no-repeat left center;
+}
+*/
+
+ul{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none; 
+}
+/*Selecionar os links que estão dentro da UL */
+ul a{
+	display: block;
+	width: 200px;
+	height: : 40px;
+	/* A largura não fica com 400 px porque
+	os links são elementos inline*/
+	color: #000;
+	text-decoration: none;
+	text-indent: 40px;
+	line-height: 40px; /* Altura da linha */
+	background: url(../Imagens/menu.png) no-repeat left bottom;
+}
+a:hover{
+	background-position: right bottom;
+	color: #fff/
+}
