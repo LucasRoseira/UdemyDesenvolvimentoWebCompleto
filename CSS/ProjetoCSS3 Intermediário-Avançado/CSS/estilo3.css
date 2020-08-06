@@ -29,9 +29,24 @@ ul a{
 	text-decoration: none;
 	text-indent: 40px;
 	line-height: 40px; /* Altura da linha */
-	background: url(../Imagens/menu.png) no-repeat left bottom;
+	/* Caso a imagem não carregue tem o plano a cor de fundo*/
+	background: #f7b600 url(../Imagens/menu.png) no-repeat left bottom;
 }
+/* Uma das abordagens = 
+.selecionado a -> Desta forma é legal quando
+utiliza uma linguagem de programação 
+*/
+/* Utilizar seletores para selecionar de fomra atuomática*/
 a:hover{
 	background-position: right bottom;
-	color: #fff/
+	background-color: #99200; 
+	color: #fff;
+}
+/* Maneira para diferenciar melhor as navegações*/
+#home #navegacao .home a,
+#sobre #navegacao .sobre a,
+#servicos #navegacao .servicos a{
+	background-position: right bottom;
+	background-color: #99200; 
+	color: #fff;
 }
