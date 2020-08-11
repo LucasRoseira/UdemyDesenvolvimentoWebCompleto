@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Estilizando Formulários</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/estilo11.css">
+</head>
+<body>
+	<h2>Estilizando Formulários</h2>
+	<form>
+		<!-- Fieldset Uilizado para agrupar dados semelhantes-->
+		<fieldset>
+			<!--Legenda para agrupamento e  "  " -->
+			<legend>Detalhes de contato</legend> 
+			<div>
+				<!-- Etiqueta ou rótulo
+					pode se fazer com e sem for
+				-->
+				<label for="nome"> Nome</label> <!--Está associado ao input abaixo -->
+				<input type="text" name="nome" id="nome">
+			</div>
+			<div>
+				<label for="email"> E-mail</label>
+				<input type="text" name="email" id="email">
+			</div>
+			<div>
+				<label for="url"> Url</label>
+				<input type="text" name="url" id="url">
+			</div>
+		</fieldset>
+		<fieldset>
+			<legend>Comentários</legend>
+			<div> <!-- Para separar os conteúdos-->
+				<label for="mensagem">Mensagem</label>
+				<textarea name="mensagem" id="mensagem"></textarea>
+			</div>
+		</fieldset>
+		<fieldset>
+			<legend>Lembrar de mim</legend>
+			<div>
+				<label >
+					<input class="radio" type="radio" name="lembrar" id="sim"> 
+					Sim
+				</label>
+			</div>
+			<div>
+				<label >
+					<input class="radio" type="radio" name="lembrar" id="nao">
+					não
+				</label>
+			</div>
+		</fieldset>
+	</form>
+</body>
+</html>

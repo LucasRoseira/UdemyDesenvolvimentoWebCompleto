@@ -1,0 +1,80 @@
+/* Layuot Fixo*/
+body {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #f2f2f2;
+}
+/*Pode se converter
+o layout líquido utiliza porcentagem*/
+#container{
+	width: 85%;
+	margin: 0 auto; /*Auto para as laterais centraliza o conteúdo*/
+	background: #fff;
+	min-width: 820px; /* Por mais que diminua
+	sempre haverá um tamanho fixo*/
+	/* max-width: 960px; /* Por mais que aumente
+	sempre haverá um tamanho fixo*/
+	/* min-height: ;
+	max-height: ; */
+}
+
+#marca{
+	width: 100%; /* Lembrar dos 100%*/
+	height: 200px;
+	background: #225992 url(../Imagens/cabecalho2.jpg) no-repeat center;
+	text-align: center;
+	line-height: 100px;
+}
+#conteudo{
+	/* border: 1px solid red; /* É bom utilizando a borda pra ir verificando*/
+	width: 75%; /* 74.28*/
+	float: right;
+}
+
+#conteudo-principal{
+	border: 1px solid red;
+	width: 63%; /* 320px -> 64*/
+	float: left;
+}
+img.img-noticia {
+	width: 94%; /* Levar em consideração o padding*/
+	padding: 2%;
+	max-width: 600px;
+}
+#conteudo-secundario{
+	border: 1px solid red;
+	width: 34%;/*180px -> 36 */
+	float: right;
+	background: #c4c4c4;
+}
+#conteudo-secundario h1,
+#conteudo-secundario h2,
+#conteudo-secundario h3,
+#conteudo-secundario p {
+	padding-left: 20px;
+	padding-right: : 20px;
+}
+
+/*
+#imagem {
+	width: 90%;
+	overflow: hidden; /* Esconde o conteúdo para 
+	não ultrapassar a imagem* */
+#navegacao {
+	width: 23%; /* 180px -> 25*/
+	float: left;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: #d1d1d1;
+}
+#navegacao ul {
+	list-style: none;
+}
+
+#navegacao li a{
+	text-decoration: none;
+}
+#rodape{
+	clear: both; /* Utilizado para limpar o elemento flutuante*/
+	padding: 5px;
+	background: #c4c4c4;
+}

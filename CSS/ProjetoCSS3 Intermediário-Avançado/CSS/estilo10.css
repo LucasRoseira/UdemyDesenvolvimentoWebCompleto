@@ -1,0 +1,40 @@
+/* Estilizando tabelas*/
+
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+/* */
+table{
+	width: 600px;
+	/*Border Collapse fica com uma única borda
+	ao invés de separada, separete ficam separadas*/
+	border-collapse: separate; 
+}
+
+th, td{
+	padding: 7px;
+}
+
+th {
+	text-transform: uppercase; /* Transformar para maiuscula*/
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #111;
+	text-align: left;
+	font-size: 90%;
+	letter-spacing: 0.1em; /* Espaçamento entre letras*/
+}
+
+/*Linha para alternar cores*/
+
+tr.alternado{
+	background-color: #efefef;
+}
+/*Passar o mouse em cima para saber onde estar*/
+tr:hover{
+	background-color: #c3e6c5;
+}
+
+/* Formatação para números*/
+.numero{
+	text-align: right ;		
+}

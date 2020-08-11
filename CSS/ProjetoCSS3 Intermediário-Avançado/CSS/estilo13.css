@@ -1,0 +1,26 @@
+/* ****************** 
+Arredondamento com imagens*/
+.caixa {
+	width: 400px;
+	background: #dedede url(../Imagens/fundo-arredondamento.png) repeat-y;
+
+}
+
+.caixa h2 {
+	padding: 10px 20px 20px; /* Superior, lateral direita e lateral esquerda */
+	background: url(../Imagens/topo2.png) no-repeat left top;
+}
+.caixa p {
+	padding: 0 20px;
+}
+/*Para consertar a parte de baixo da caixa */
+.caixa .ultimo {
+	background: url(../Imagens/baixo2.png) no-repeat left bottom; 
+	width: 400px;
+	height: 24px;
+}
+/* 
+.caixa p{
+	padding: 0px 20px 20px;
+	background: url(../Imagens/baixo2.png) no-repeat left bottom;
+} */
