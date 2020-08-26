@@ -1,0 +1,21 @@
+#caixa {
+	width: 300px;
+	height: 300px;
+	padding: 8px;
+	margin: 20px;
+	background: #009670;
+	/* box-shadow: -20px 20px 10px black; */
+	/* box-shadow: 40px 300px 2px 20px black; */
+	box-shadow: 20px 20px 5px rgba(0,0,0,0.6);
+
+
+}
+
+#caixa h1 {
+	color: white;
+	/* text-shadow: 20px 20px black; */
+	/* text-shadow: 20px 20px 5px rgba(0,0,0,0.6); */
+	text-shadow: 20px 20px 5px rgba(0,0,0,0.6);
+
+
+}
